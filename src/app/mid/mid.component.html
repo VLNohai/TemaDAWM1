@@ -1,0 +1,31 @@
+<div class="all-container">
+    <p>Search & Book all our destinations</p>
+    <input (change)="search()" type="text" [(ngModel)] = "searchTerm" class="searchbar" placeholder="Select your city">
+    <div *ngIf="showSearch">
+        <router-outlet></router-outlet>
+    </div>
+    <p class="services-title">OUR SERVICES</p>
+    <hr style="width: 500px; color: whitesmoke;">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h1>TRAVEL</h1>
+            <h2>Article title</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="grid-item">
+            <h1>TRAVEL ARRANGEMENTS</h1>
+            <h2>Article title</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="grid-item">
+            <h1>OUR PROFESSIONAL GUIDE</h1>
+            <h2>Article title</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="grid-item">
+            <h1>ACTIVITIES</h1>
+            <h2>Article title</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+    </div>
+</div>

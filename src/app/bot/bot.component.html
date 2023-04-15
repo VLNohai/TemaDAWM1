@@ -1,0 +1,17 @@
+<div class="all-container">
+    <div class="background">
+        <div class="buttons-container">
+            <button [disabled]="!canGoLeft" (click)="goToPage(currentPage - 1)"> < </button>
+            <button [disabled]="!canGoRight" (click)="goToPage(currentPage + 1)"> > </button>
+        </div>
+        <h1 style="text-align: center; color: mediumspringgreen;">MOST POPULAR</h1>
+        <hr style="width: 500px; color: whitesmoke;">
+        <div class="card-container">
+            <div class="card-row">
+                <div *ngFor="let hood of visibleHoods">
+                    <app-card [name]="hood.name" [text]="hood.text" [photo]="hood.photo" [clickEvent]="clickEvent"></app-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

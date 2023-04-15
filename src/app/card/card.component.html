@@ -1,0 +1,9 @@
+<div class="card">
+    <img [src]="photo" alt="Photo">
+    <div class="card-content">
+      <h2 class="card-title">{{ name }}</h2>
+      <p class="card-text"> {{ text }} </p>
+      <button (click)="emitEvent(name)" class="card-button">VIEW NOW</button>
+    </div>
+  </div>
+  

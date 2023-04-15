@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Micro Central",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/primarie.jpg"
+    },
+    {
+        "name" : "Micro 2",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro2.jpg"
+    },
+    {
+        "name" : "Micro 3",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro3.jpg"
+    },
+    {
+        "name" : "Micro 4",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro4.jpg"
+    },
+    {
+        "name" : "Micro 5",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro5.jpg"
+    },
+    {
+        "name" : "Micro 6",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro6.jpg"
+    },
+    {
+        "name" : "CFR",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/cfr.jpg"
+    },
+    {
+        "name" : "Micro 8",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro8.jpg"
+    },
+    {
+        "name" : "Micro 9",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro9.jpg"
+    },
+    {
+        "name" : "Chindia",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/chindia.jpg"
+    },
+    {
+        "name" : "Micro 11",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro11.jpg"
+    },
+    {
+        "name" : "Micro 12",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "photo" : "assets/micro12.jpg"
+    }
+]

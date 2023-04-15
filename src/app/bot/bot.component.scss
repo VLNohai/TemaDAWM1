@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+  
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.background{
+    width: 1100px;
+    background-color: whitesmoke;
+}
+
+.all-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 20px;
+}
+
+button{
+    background-color: lightgray;
+    border: 0px;
+    font-weight:bolder;
+    margin: 2px;
+}
